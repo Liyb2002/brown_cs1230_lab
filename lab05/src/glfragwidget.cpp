@@ -98,23 +98,29 @@ void GLFragWidget::paintGLFragmentShaders() {
         case SOLID_SHADER_PROGRAM:
             // TODO: Use m_solidProgramID as the program. (Task 9)
         glUseProgram(m_solidProgramID);
-        m_square->draw();
-        glUseProgram(0);
+
 
 
 
             // TODO: Set the uniform's value to a color other than white. (Task 10)
+   //     GLint uniformLoc = glGetUniformLocation(m_program, "myUniform");
+  //      glUniform3f(uniformLoc, 1, 0, 0);
+
+
+
 
             // TODO: Draw the square, and then unbind the program. (Task 9)
+        m_square->draw();
+        glUseProgram(0);
 
             break;
-        case GRADIENT_SHADER_PROGRAM:
+       case GRADIENT_SHADER_PROGRAM:
             // TODO: Draw the square using m_gradientProgramID. (Task 13)
 
             // TODO: Draw the square, and then unbind the program. (Task 13)
 
             break;
-        case TEXTURE_SHADER_PROGRAM:
+       case TEXTURE_SHADER_PROGRAM:
             // TODO: Use m_textureProgramID. (Task 16)
 
 
