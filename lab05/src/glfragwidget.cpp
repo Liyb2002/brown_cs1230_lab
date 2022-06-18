@@ -97,6 +97,11 @@ void GLFragWidget::paintGLFragmentShaders() {
     switch (settings.shaderProgram) {
         case SOLID_SHADER_PROGRAM:
             // TODO: Use m_solidProgramID as the program. (Task 9)
+        glUseProgram(m_solidProgramID);
+        m_square->draw();
+        glUseProgram(0);
+
+
 
             // TODO: Set the uniform's value to a color other than white. (Task 10)
 

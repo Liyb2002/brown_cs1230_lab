@@ -7,7 +7,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -31,13 +31,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -74,10 +74,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/settings.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/settings.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/settings.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/settings.cpp"
 },
 {
     "arguments": [
@@ -87,7 +87,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -111,13 +111,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -154,10 +154,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glfragwidget.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glfragwidget.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glfragwidget.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glfragwidget.cpp"
 },
 {
     "arguments": [
@@ -167,7 +167,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -191,13 +191,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -234,10 +234,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/mainwindow.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/mainwindow.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/mainwindow.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/mainwindow.cpp"
 },
 {
     "arguments": [
@@ -247,7 +247,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -271,13 +271,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -314,10 +314,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/main.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/main.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/main.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/main.cpp"
 },
 {
     "arguments": [
@@ -327,7 +327,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -351,13 +351,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -394,10 +394,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glwidget.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glwidget.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glwidget.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glwidget.cpp"
 },
 {
     "arguments": [
@@ -407,7 +407,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -431,13 +431,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -474,10 +474,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/databinding.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/databinding.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/databinding.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/databinding.cpp"
 },
 {
     "arguments": [
@@ -487,7 +487,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -511,13 +511,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -554,10 +554,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib/resourceloader.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib/resourceloader.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib/resourceloader.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib/resourceloader.cpp"
 },
 {
     "arguments": [
@@ -567,7 +567,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -591,13 +591,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -634,10 +634,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/openglshape.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/openglshape.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/openglshape.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/openglshape.cpp"
 },
 {
     "arguments": [
@@ -647,7 +647,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -671,13 +671,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -714,10 +714,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBO.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBO.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBO.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBO.cpp"
 },
 {
     "arguments": [
@@ -727,7 +727,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -751,13 +751,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -794,10 +794,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBOAttribMarker.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBOAttribMarker.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBOAttribMarker.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBOAttribMarker.cpp"
 },
 {
     "arguments": [
@@ -807,7 +807,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -831,13 +831,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -874,10 +874,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VAO.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VAO.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VAO.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VAO.cpp"
 },
 {
     "arguments": [
@@ -887,7 +887,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -911,13 +911,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -954,10 +954,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/IBO.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/IBO.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/IBO.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/IBO.cpp"
 },
 {
     "arguments": [
@@ -967,7 +967,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -991,13 +991,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1034,10 +1034,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/GLDebug.cpp"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/GLDebug.cpp"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/GLDebug.cpp"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/GLDebug.cpp"
 },
 {
     "arguments": [
@@ -1047,7 +1047,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1071,13 +1071,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1114,10 +1114,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glfragwidget.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glfragwidget.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glfragwidget.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glfragwidget.h"
 },
 {
     "arguments": [
@@ -1127,7 +1127,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1151,13 +1151,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1194,10 +1194,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/settings.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/settings.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/settings.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/settings.h"
 },
 {
     "arguments": [
@@ -1207,7 +1207,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1231,13 +1231,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1274,10 +1274,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/mainwindow.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/mainwindow.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/mainwindow.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/mainwindow.h"
 },
 {
     "arguments": [
@@ -1287,7 +1287,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1311,13 +1311,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1354,10 +1354,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glwidget.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glwidget.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glwidget.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glwidget.h"
 },
 {
     "arguments": [
@@ -1367,7 +1367,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1391,13 +1391,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1434,10 +1434,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/databinding.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/databinding.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/databinding.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/databinding.h"
 },
 {
     "arguments": [
@@ -1447,7 +1447,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1471,13 +1471,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1514,10 +1514,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib/resourceloader.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib/resourceloader.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib/resourceloader.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib/resourceloader.h"
 },
 {
     "arguments": [
@@ -1527,7 +1527,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1551,13 +1551,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1594,10 +1594,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/openglshape.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/openglshape.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/openglshape.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/openglshape.h"
 },
 {
     "arguments": [
@@ -1607,7 +1607,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1631,13 +1631,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1674,10 +1674,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBO.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBO.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBO.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBO.h"
 },
 {
     "arguments": [
@@ -1687,7 +1687,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1711,13 +1711,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1754,10 +1754,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBOAttribMarker.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBOAttribMarker.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBOAttribMarker.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBOAttribMarker.h"
 },
 {
     "arguments": [
@@ -1767,7 +1767,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1791,13 +1791,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1834,10 +1834,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VAO.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VAO.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VAO.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VAO.h"
 },
 {
     "arguments": [
@@ -1847,7 +1847,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1871,13 +1871,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1914,10 +1914,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/IBO.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/IBO.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/IBO.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/IBO.h"
 },
 {
     "arguments": [
@@ -1927,7 +1927,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1951,13 +1951,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -1994,10 +1994,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/shaders/ShaderAttribLocations.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/shaders/ShaderAttribLocations.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/shaders/ShaderAttribLocations.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/shaders/ShaderAttribLocations.h"
 },
 {
     "arguments": [
@@ -2007,7 +2007,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2031,13 +2031,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2074,10 +2074,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/GLDebug.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/GLDebug.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/GLDebug.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/GLDebug.h"
 },
 {
     "arguments": [
@@ -2087,7 +2087,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2111,13 +2111,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2154,10 +2154,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include/GL/glew.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include/GL/glew.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include/GL/glew.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include/GL/glew.h"
 },
 {
     "arguments": [
@@ -2167,7 +2167,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2191,13 +2191,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2234,10 +2234,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/sphere.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/sphere.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/sphere.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/sphere.h"
 },
 {
     "arguments": [
@@ -2247,7 +2247,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2271,13 +2271,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2314,10 +2314,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/ui_mainwindow.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/ui_mainwindow.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/ui_mainwindow.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/ui_mainwindow.h"
 },
 {
     "arguments": [
@@ -2327,7 +2327,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2348,13 +2348,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2389,10 +2389,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/src/glew.c"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/src/glew.c"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/src/glew.c"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/src/glew.c"
 },
 {
     "arguments": [
@@ -2402,7 +2402,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2423,13 +2423,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2464,10 +2464,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glfragwidget.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glfragwidget.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glfragwidget.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glfragwidget.h"
 },
 {
     "arguments": [
@@ -2477,7 +2477,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2498,13 +2498,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2539,10 +2539,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/settings.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/settings.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/settings.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/settings.h"
 },
 {
     "arguments": [
@@ -2552,7 +2552,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2573,13 +2573,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2614,10 +2614,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/mainwindow.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/mainwindow.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/mainwindow.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/mainwindow.h"
 },
 {
     "arguments": [
@@ -2627,7 +2627,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2648,13 +2648,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2689,10 +2689,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glwidget.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glwidget.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/glwidget.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/glwidget.h"
 },
 {
     "arguments": [
@@ -2702,7 +2702,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2723,13 +2723,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2764,10 +2764,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/databinding.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/databinding.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/databinding.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/databinding.h"
 },
 {
     "arguments": [
@@ -2777,7 +2777,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2798,13 +2798,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2839,10 +2839,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib/resourceloader.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib/resourceloader.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib/resourceloader.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib/resourceloader.h"
 },
 {
     "arguments": [
@@ -2852,7 +2852,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2873,13 +2873,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2914,10 +2914,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/openglshape.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/openglshape.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/openglshape.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/openglshape.h"
 },
 {
     "arguments": [
@@ -2927,7 +2927,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -2948,13 +2948,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -2989,10 +2989,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBO.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBO.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBO.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBO.h"
 },
 {
     "arguments": [
@@ -3002,7 +3002,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -3023,13 +3023,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -3064,10 +3064,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBOAttribMarker.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBOAttribMarker.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VBOAttribMarker.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VBOAttribMarker.h"
 },
 {
     "arguments": [
@@ -3077,7 +3077,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -3098,13 +3098,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -3139,10 +3139,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VAO.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VAO.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/VAO.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/VAO.h"
 },
 {
     "arguments": [
@@ -3152,7 +3152,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -3173,13 +3173,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -3214,10 +3214,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/IBO.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/IBO.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/datatype/IBO.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/datatype/IBO.h"
 },
 {
     "arguments": [
@@ -3227,7 +3227,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -3248,13 +3248,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -3289,10 +3289,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/shaders/ShaderAttribLocations.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/shaders/ShaderAttribLocations.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/shaders/ShaderAttribLocations.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/shaders/ShaderAttribLocations.h"
 },
 {
     "arguments": [
@@ -3302,7 +3302,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -3323,13 +3323,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -3364,10 +3364,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/GLDebug.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/GLDebug.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/gl/GLDebug.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/gl/GLDebug.h"
 },
 {
     "arguments": [
@@ -3377,7 +3377,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -3398,13 +3398,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -3439,10 +3439,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include/GL/glew.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include/GL/glew.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include/GL/glew.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include/GL/glew.h"
 },
 {
     "arguments": [
@@ -3452,7 +3452,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -3473,13 +3473,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -3514,10 +3514,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/sphere.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/sphere.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src/sphere.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src/sphere.h"
 },
 {
     "arguments": [
@@ -3527,7 +3527,7 @@
         "-I",
         "/Applications/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-ojPhgO/clang-uiheader-IafuFM",
+        "/private/var/folders/jm/2d411jv14y1ckmpmjw1f5kf40000gn/T/QtCreator-boRFAJ/clang-uiheader-alRPUL",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -3548,13 +3548,13 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/src",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/src",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/cs123_lib",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/cs123_lib",
         "-I",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/glew-1.10.0/include",
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/glew-1.10.0/include",
         "-I",
         "/Users/yuanboli/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Headers",
         "-I",
@@ -3589,9 +3589,9 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/ui_mainwindow.h"
+        "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/ui_mainwindow.h"
     ],
-    "directory": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/.qtc_clangd",
-    "file": "/Users/yuanboli/Documents/GitHub/cs1230_labs/lab05/ui_mainwindow.h"
+    "directory": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/.qtc_clangd",
+    "file": "/Users/yuanboli/Documents/GitHub/brown_cs1230_lab/lab05/ui_mainwindow.h"
 }
 ]
