@@ -93,6 +93,7 @@ void GLFragWidget::initializeGLFragmentShaders() {
 
 void GLFragWidget::paintGLFragmentShaders() {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    GLint uniformLoc = glGetUniformLocation(m_solidProgramID, "color");
 
     switch (settings.shaderProgram) {
         case SOLID_SHADER_PROGRAM:
@@ -103,8 +104,8 @@ void GLFragWidget::paintGLFragmentShaders() {
 
 
             // TODO: Set the uniform's value to a color other than white. (Task 10)
-   //     GLint uniformLoc = glGetUniformLocation(m_program, "myUniform");
-  //      glUniform3f(uniformLoc, 1, 0, 0);
+
+        glUniform3f(uniformLoc, 0, 1, 0);
 
 
 
