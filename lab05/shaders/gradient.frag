@@ -1,5 +1,6 @@
 #version 400
 // TODO: Make a new in vec3 with the same name as the vertex shader's output (Task 13)
+in vec3 fragColor;
 
 out vec3 fragColor;
 // begin ta solution

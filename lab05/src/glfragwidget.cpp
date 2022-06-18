@@ -73,6 +73,8 @@ void GLFragWidget::initializeGLFragmentShaders() {
 
 
     // TODO: Interleave positions and colors in the array used to intialize m_square (Task 11)
+    m_square->OpenGLShape::setAttribute(ShaderAttrib::COLOR, 3, 4, VBOAttribMarker::DATA_TYPE::FLOAT, false);
+
     // TODO: Interleave UV-coordinates along with positions and colors in your VBO (Task 15)
     std::vector<float> coordinates = {-.5, .5, 0,
                                        -.5, -.5, 0,
@@ -117,9 +119,11 @@ void GLFragWidget::paintGLFragmentShaders() {
             break;
        case GRADIENT_SHADER_PROGRAM:
             // TODO: Draw the square using m_gradientProgramID. (Task 13)
+        glUseProgram(m_solidProgramID);
 
             // TODO: Draw the square, and then unbind the program. (Task 13)
-
+        m_square->draw();
+        glUseProgram(0);
             break;
        case TEXTURE_SHADER_PROGRAM:
             // TODO: Use m_textureProgramID. (Task 16)
