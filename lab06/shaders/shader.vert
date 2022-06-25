@@ -12,6 +12,7 @@ void main() {
     gl_Position.y += 0.5;
 
     // TODO: Transform gl_Position using the model matrix uniform (Task 3)
+    gl_Position.x += 0.5;
 
     // TODO: Transform the position using all three matrix uniforms. (Task 4)
 

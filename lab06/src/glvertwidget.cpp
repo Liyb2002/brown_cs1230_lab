@@ -117,6 +117,10 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
 
 
         // TODO: Generate model matrix and pass it to vertex shader. (Task 3)
+        glm::mat4 myMatrix = glm::mat4(glm::translate(glm::vec3(0,0.5,0)));
+    //    glGetUniformLocation(m_program, "model");
+        glUniformMatrix4fv(glGetUniformLocation(m_program, "model"), 1, GL_FALSE, glm::value_ptr(myMatrix) );
+
 
 
         // TODO: Generate view matrix and pass it to vertex shader. (Task 4)
