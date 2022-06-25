@@ -126,6 +126,7 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
 
 
         // TODO: Draw sphere here! (Task 1)
+        m_sphere->draw();
 
         // TODO: Change color. (Task 5)
 
