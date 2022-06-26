@@ -123,12 +123,15 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
         glUniformMatrix4fv(glGetUniformLocation(m_program, "model"), 1, GL_FALSE, glm::value_ptr(modelMatrix) );
 
         // TODO: Generate view matrix and pass it to vertex shader. (Task 4)
-        glm::mat4 viewMatrix = glm::lookAt(glm::vec3(0,1,6), glm::vec3(0,0,0), glm::vec3(0,1,0));
+     //   glm::mat4 viewMatrix = glm::lookAt(glm::vec3(0,1,6), glm::vec3(0,0,0), glm::vec3(0,1,0));
+        glm::mat4 viewMatrix = glm::lookAt(eye, center, up);
+
         glUniformMatrix4fv(glGetUniformLocation(m_program, "view"), 1, GL_FALSE, glm::value_ptr(viewMatrix) );
 
         // TODO: Generate projection matrix and pass it to vertex shader. (Task 4)
 
-        glm::mat4 perspectiveMatrix = glm::perspective(glm::radians(50.0f),0.75f,1.f,200.f);
+        //glm::mat4 perspectiveMatrix = glm::perspective(glm::radians(90.0f),0.75f,1.f,200.f);
+        glm::mat4 perspectiveMatrix = glm::perspective(fieldOfViewY,aspectRatio,nearClipPlane,farClipPlane);
         glUniformMatrix4fv(glGetUniformLocation(m_program, "perspective"), 1, GL_FALSE, glm::value_ptr(perspectiveMatrix) );
 
 
