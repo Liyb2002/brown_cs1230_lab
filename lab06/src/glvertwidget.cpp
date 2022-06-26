@@ -117,16 +117,21 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
 
 
         // TODO: Generate model matrix and pass it to vertex shader. (Task 3)
-        glm::mat4 myMatrix = glm::mat4(glm::translate(glm::vec3(0,0.5,0)));
+        glm::mat4 modelMatrix = glm::mat4(glm::translate(glm::vec3(0.5,0,0)));
     //    glGetUniformLocation(m_program, "model");
-        glUniformMatrix4fv(glGetUniformLocation(m_program, "model"), 1, GL_FALSE, glm::value_ptr(myMatrix) );
+        glUniformMatrix4fv(glGetUniformLocation(m_program, "model"), 1, GL_FALSE, glm::value_ptr(modelMatrix) );
 
 
 
         // TODO: Generate view matrix and pass it to vertex shader. (Task 4)
+        glm::mat4 viewMatrix = glm::lookAt(glm::vec3(0,1,6), glm::vec3(0,0,0), glm::vec3(0,1,0));
+        glUniformMatrix4fv(glGetUniformLocation(m_program, "view"), 1, GL_FALSE, glm::value_ptr(viewMatrix) );
 
 
         // TODO: Generate projection matrix and pass it to vertex shader. (Task 4)
+
+        glm::mat4 perspectiveMatrix = glm::perspective(glm::radians(45.0f),0.75f,0.1f,200.f);
+        glUniformMatrix4fv(glGetUniformLocation(m_program, "perspective"), 1, GL_FALSE, glm::value_ptr(perspectiveMatrix) );
 
 
         // TODO: Draw sphere here! (Task 1)
