@@ -23,6 +23,7 @@ in vec3 CameraSpace_position; // eye-space position
 in vec3 CameraSpace_normal;   // eye-space normal
 
 out vec3 fragColor;
+in vec3 ObjectSpace_position;
 
 void main(){
     // some vectors that might be helpful (all in camera space, so if you're working in world
@@ -33,7 +34,22 @@ void main(){
     vec3 CameraSpace_normal_n = normalize(CameraSpace_normal);   // normalized, camera-space normal
 
 
-    fragColor = color;
-    // to do: phong lighting model
+    // task8: to do: phong lighting model
+    fragColor = color * ambientIntensity;
 
+
+    // diffuse
+    vec3 norm = normalize(WorldSpace_lightPos);
+ //   vec3 lightDir = normalize(ObjectSpace_position - WorldSpace_lightPos);
+//    float diff = max(dot(norm, lightDir), 0.0);
+ //   fragColor += color * lightColor * (diff * diffuseIntensity);
+/*
+    // specular
+    vec3 viewDir = normalize(CameraSpace_position - ObjectSpace_position);
+    vec3 reflectDir = reflect(-lightDir, norm);
+    float spec = pow(max(dot(viewDir, reflectDir), 0.0), shininess);
+    vec3 specular = lightColor * (spec * specularIntensity);
+
+
+*/
 }

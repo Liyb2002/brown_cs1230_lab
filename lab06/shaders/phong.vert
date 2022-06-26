@@ -13,4 +13,6 @@ void main() {
     CameraSpace_normal = (view * model * vec4(ObjectSpace_normal, 0.0)).xyz;
 
     gl_Position = projection * view * model * vec4(ObjectSpace_position, 1.0);
+
+
 }
