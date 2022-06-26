@@ -118,7 +118,7 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
 
 
         // TODO: Generate model matrix and pass it to vertex shader. (Task 3)
-        glm::mat4 modelMatrix = glm::mat4(glm::translate(glm::vec3(0.5,0,0)));
+        glm::mat4 modelMatrix = glm::mat4(glm::translate(glm::vec3(6 * cos(m_angle),0.5 + fabs( sin(1 * time) ),6 * sin(m_angle))));
     //    glGetUniformLocation(m_program, "model");
         glUniformMatrix4fv(glGetUniformLocation(m_program, "model"), 1, GL_FALSE, glm::value_ptr(modelMatrix) );
 
@@ -128,7 +128,7 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
 
         // TODO: Generate projection matrix and pass it to vertex shader. (Task 4)
 
-        glm::mat4 perspectiveMatrix = glm::perspective(glm::radians(45.0f),0.75f,0.1f,200.f);
+        glm::mat4 perspectiveMatrix = glm::perspective(glm::radians(50.0f),0.75f,1.f,200.f);
         glUniformMatrix4fv(glGetUniformLocation(m_program, "perspective"), 1, GL_FALSE, glm::value_ptr(perspectiveMatrix) );
 
 
@@ -140,10 +140,11 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
 
 
         // TODO: Scale the square x2. (Task 7)
+        glm::scale(modelMatrix, glm::vec3(2.f,2.f,2.f));
 
 
         // TODO: Rotate the square to lie flat on the XZ plane. (Task 7)
-
+        glm::rotate(modelMatrix, glm::radians(45.0f), glm::vec3(1.f,1.f,1.f));
 
         // TODO: Draw the square. (Task 5)
         m_square->draw();
