@@ -84,6 +84,7 @@ void GLVertWidget::initializeGLTransformationsVertexShaders() {
     m_square->buildVAO();
 
     // TODO: Enable depth testing. (Task 6)
+    glEnable(GL_DEPTH_TEST);
 
 }
 
@@ -111,7 +112,7 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
 
         glUseProgram(m_program);
 
-        glUniform3f(glGetUniformLocation(m_program, "color"), 0.5, 0.4, 0.8);
+        glUniform3f(glGetUniformLocation(m_program, "color"), 0.1, 0.6, 0.8);
 
         // TODO: Use the equation to translate the ball. (Task 7)
 
@@ -121,12 +122,9 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
     //    glGetUniformLocation(m_program, "model");
         glUniformMatrix4fv(glGetUniformLocation(m_program, "model"), 1, GL_FALSE, glm::value_ptr(modelMatrix) );
 
-
-
         // TODO: Generate view matrix and pass it to vertex shader. (Task 4)
         glm::mat4 viewMatrix = glm::lookAt(glm::vec3(0,1,6), glm::vec3(0,0,0), glm::vec3(0,1,0));
         glUniformMatrix4fv(glGetUniformLocation(m_program, "view"), 1, GL_FALSE, glm::value_ptr(viewMatrix) );
-
 
         // TODO: Generate projection matrix and pass it to vertex shader. (Task 4)
 
@@ -138,6 +136,8 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
         m_sphere->draw();
 
         // TODO: Change color. (Task 5)
+        glUniform3f(glGetUniformLocation(m_program, "color"), 0.4, 0.1, 0.8);
+
 
         // TODO: Scale the square x2. (Task 7)
 
@@ -146,6 +146,7 @@ void GLVertWidget::paintGLTransformationsVertexShaders() {
 
 
         // TODO: Draw the square. (Task 5)
+        m_square->draw();
 
 
         glUseProgram(0);
