@@ -64,6 +64,7 @@ void GLWidget::initializeGL() {
     // We've already set the vertex attributes for you, so be sure to follow those specifications
     // (triangle strip, 4 vertices, position followed by UVs)
     std::vector<GLfloat> quadData;
+    quadData={1,1,0,1,-1,0,-1,-1,0,-1,1,0};
     m_quad = std::make_unique<OpenGLShape>();
     m_quad->setVertexData(&quadData[0], quadData.size(), VBO::GEOMETRY_LAYOUT::LAYOUT_TRIANGLE_STRIP, 4);
     m_quad->setAttribute(ShaderAttrib::POSITION, 3, 0, VBOAttribMarker::DATA_TYPE::FLOAT, false);
@@ -99,7 +100,7 @@ void GLWidget::drawBlur() {
 
     //Bind m_blurFBO1 at the very beginning of GLWidget::drawBlur() before you called glClear
     //lab7 quit unexpectedly?
-    m_blurFBO1 -> bind();
+ //   m_blurFBO1 -> bind();
     glClear(GL_COLOR_BUFFER_BIT);
     glClear(GL_DEPTH_BUFFER_BIT);
 
