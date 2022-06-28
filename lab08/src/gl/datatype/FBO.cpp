@@ -20,6 +20,8 @@ FBO::FBO(int numberOfColorAttachments, DEPTH_STENCIL_ATTACHMENT attachmentType, 
 {
     // TODO [Task 2]
     // Generate a new framebuffer using m_handle
+    glGenFramebuffers(1, &m_handle);
+
 
     // TODO [Task 3]
     // Call bind() and fill it in with glBindFramebuffer
@@ -36,6 +38,7 @@ FBO::FBO(int numberOfColorAttachments, DEPTH_STENCIL_ATTACHMENT attachmentType, 
 FBO::~FBO()
 {
     // TODO Don't forget to delete!
+    glDeleteBuffers(1,&m_handle);
 }
 
 void FBO::generateColorAttachments(int count, TextureParameters::WRAP_METHOD wrapMethod,
@@ -69,7 +72,9 @@ void FBO::generateColorAttachment(int i, TextureParameters::WRAP_METHOD wrapMeth
 
     // TODO [Task 2]
     // - Set the filter method using builder.setFilter() with filterMethod
+    builder.setFilter(filterMethod);
     // - Set the wrap method using builder.setWrap() with wrapMethod
+    builder.setWrap(wrapMethod);
 
     TextureParameters parameters = builder.build();
     parameters.applyTo(tex);
