@@ -96,6 +96,10 @@ void GLWidget::paintGL() {
 
 void GLWidget::drawBlur() {
     // TODO: [Task 1] Do drawing here!
+
+    //Bind m_blurFBO1 at the very beginning of GLWidget::drawBlur() before you called glClear
+    //lab7 quit unexpectedly?
+    m_blurFBO1 -> bind();
     glClear(GL_COLOR_BUFFER_BIT);
     glClear(GL_DEPTH_BUFFER_BIT);
 
@@ -105,12 +109,13 @@ void GLWidget::drawBlur() {
     glUniformMatrix4fv(glGetUniformLocation(m_phongProgram, "model"), 1, GL_FALSE, glm::value_ptr(glm::mat4x4()) );
     glUniformMatrix4fv(glGetUniformLocation(m_phongProgram, "view"), 1, GL_FALSE, glm::value_ptr(m_view) );
     glUniformMatrix4fv(glGetUniformLocation(m_phongProgram, "projection"), 1, GL_FALSE, glm::value_ptr(m_projection) );
-    glViewport(0, 0, m_width, m_height);
-    m_sphere->draw();
+
 
     //       [Task 1.5] Call glViewport so that the viewport is the right size
-
+    glViewport(0, 0, m_width, m_height);
+    m_sphere->draw();
     //       [Task 5b] Bind m_blurFBO1
+ //   m_blurFBO1 -> bind();
     //       [Task 8] Bind m_blurFBO1's color texture
     //       [Task 7] Unbind m_blurFBO1 and render a full screen quad
     //       [Task 11] Bind m_blurFBO2
@@ -137,6 +142,8 @@ void GLWidget::resizeGL(int w, int h) {
     m_height = h;
 
     // TODO: [Task 5] Initialize FBOs here, with dimensions m_width and m_height.
+    std::unique_ptr<FBO> m_blur = std::make_unique<FBO>(1,FBO::DEPTH_STENCIL_ATTACHMENT::NONE,w,h);
+
     //       [Task 12] Pass in TextureParameters::WRAP_METHOD::CLAMP_TO_EDGE as the last parameter
 
     rebuildMatrices();
