@@ -28,6 +28,7 @@ Canvas2D::~Canvas2D()
 
 void Canvas2D::filterImage() {
     // TODO: Task 1
+    std::unique_ptr<Filter>;
 
     // TODO: Task 2
 
