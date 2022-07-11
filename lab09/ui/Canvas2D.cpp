@@ -55,6 +55,7 @@ void Canvas2D::filterImage() {
 
 
     // TODO: Task 3
+     m_filter->apply(this);
 
     this->update();
 }
