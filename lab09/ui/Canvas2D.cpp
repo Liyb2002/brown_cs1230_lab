@@ -38,7 +38,9 @@ void Canvas2D::filterImage() {
     // TODO: Task 1
      std::unique_ptr<Filter> m_filter;
 
+     m_filter = std::make_unique<FilterGray>();
     // TODO: Task 2
+
      switch (settings.filterType){
       case 1:
          m_filter = std::make_unique<FilterInvert>();
