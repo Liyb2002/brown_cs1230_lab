@@ -26,11 +26,33 @@ Canvas2D::~Canvas2D()
 {
 }
 
+/*    FILTER_INVERT,
+FILTER_GRAYSCALE,
+FILTER_IDENTITY,
+FILTER_SHIFT_LEFT,
+FILTER_SHIFT_RIGHT,
+NUM_FILTER_TYPES
+*/
+
 void Canvas2D::filterImage() {
     // TODO: Task 1
-    std::unique_ptr<Filter>;
+     std::unique_ptr<Filter> m_filter;
 
     // TODO: Task 2
+     switch (settings.filterType){
+      case 1:
+         m_filter = std::make_unique<FilterInvert>();
+      case 2:
+         m_filter = std::make_unique<FilterGray>();
+     case 3:
+        m_filter = std::make_unique<FilterIdentity>();
+     case 4:
+        m_filter = std::make_unique<FilterShift>(SHIFT_LEFT);
+     case 5:
+        m_filter = std::make_unique<FilterShift>(SHIFT_RIGHT);
+
+     }
+
 
     // TODO: Task 3
 
