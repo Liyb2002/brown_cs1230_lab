@@ -50,6 +50,8 @@ struct Surface {
     vec3 col; // color
 };
 
+//p, is the sample point
+//the second parameter, b, is a vec3 variable that represents the boundaries of the box.
 Surface sdBox( vec3 p, vec3 b, vec3 offset, vec3 col, mat3 transform)
 {
   p = (p - offset) * transform;
