@@ -10,6 +10,7 @@ in vec2 uv;
 
 // TODO [Task 15] setup the output locations
 
+
 const float PI = 3.14159;
 const float dt = 0.0167; // 1 sec/60 fps
 

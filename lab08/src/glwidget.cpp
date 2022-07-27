@@ -80,6 +80,7 @@ void GLWidget::initializeGL() {
                                                                  TextureParameters::WRAP_METHOD::CLAMP_TO_EDGE,
                                                                  TextureParameters::FILTER_METHOD::NEAREST,
                                                                  GL_FLOAT);
+
     std::shared_ptr<FBO> m_particlesFBO2 = std::make_shared<FBO>(2,FBO::DEPTH_STENCIL_ATTACHMENT::NONE,
                                                                  m_numParticles,1,
                                                                  TextureParameters::WRAP_METHOD::CLAMP_TO_EDGE,
@@ -139,7 +140,13 @@ void GLWidget::drawParticles() {
     float firstPass = m_firstPass ? 1.0f : 0.0f;
 
     // TODO [Task 14] Move the particles from prevFBO to nextFBO while updating them
+      nextFBO->bind();
+      m_particleUpdateProgram;
+      glActiveTexture(GL_TEXTURE0);
+      prevFBO->getColorAttachment(0);
 
+      glActiveTexture(GL_TEXTURE1);
+      prevFBO->getColorAttachment(1);
     // TODO [Task 17] Draw the particles from nextFBO
 
     m_firstPass = false;
