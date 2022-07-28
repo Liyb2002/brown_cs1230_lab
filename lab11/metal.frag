@@ -62,7 +62,23 @@ vec4 CookTorrance(vec4 ambient,
 
                 Rs = (F * D * G) / (3.14 * NdotL * NdotV);
         }
-        return ambient + diffuse + specular;
+        return Rs*specular;
+}
+
+vec3 phong(vec3 lightDirection, vec3 normal){
+
+          // ambient
+          float k_a = 0.6;
+          vec3 i_a = vec3(0.7, 0.7, 0);
+          vec3 ambient = k_a * i_a;
+
+          // diffuse
+          float k_d = 0.5;
+          float dotLN = clamp(dot(lightDirection, normal), 0., 1.);
+          vec3 i_d = vec3(0.7, 0.5, 0);
+          vec3 diffuse = k_d * dotLN * i_d;
+
+          return ambient + diffuse;
 }
 
 void main()
@@ -72,13 +88,15 @@ void main()
     vec3 cameraToVertex = normalize(vertex); //remember we are in camera space!
 
     //TODO: fill the rest in
-
-    fragColor = CookTorrance(ambient, diffuse,
+    vec3 color = phong(l,n);
+    fragColor = vec4(color.x,color.y,color.z,1.0);
+/*
+    fragColor += CookTorrance(ambient, diffuse,
                     n,
                     l,
                     cameraToVertex,
                     specular);
-
+*/
 
   //  fragColor = testColor();
 }
