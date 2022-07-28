@@ -27,44 +27,6 @@ vec4 testColor() {
     return vec4(0.1,0.2,0.5,1.);
 }
 
-vec4 CookTorrance(vec4 ambient,
-        vec4 diffuse,
-        vec3 normal,
-        vec3 lightDir,
-        vec3 viewDir,
-        vec4 specular)
-{
-        float NdotL = max(0, dot(normal, lightDir));
-        float Rs = 0.0;
-        if (NdotL > 0)
-        {
-                vec3 H = normalize(lightDir + viewDir);
-                float NdotH = max(0, dot(normal, H));
-                float NdotV = max(0, dot(normal, viewDir));
-                float VdotH = max(0, dot(lightDir, H));
-
-                // Fresnel reflectance
-                float F = pow(1.0 - VdotH, 5.0);
-                F *= (1.0 - r0);
-                F += r0;
-
-                // Microfacet distribution by Beckmann
-                float m_squared = m * m;
-                float r1 = 1.0 / (4.0 * m_squared * pow(NdotH, 4.0));
-                float r2 = (NdotH * NdotH - 1.0) / (m_squared * NdotH * NdotH);
-                float D = r1 * exp(r2);
-
-                // Geometric shadowing
-                float two_NdotH = 2.0 * NdotH;
-                float g1 = (two_NdotH * NdotV) / VdotH;
-                float g2 = (two_NdotH * NdotL) / VdotH;
-                float G = min(1.0, min(g1, g2));
-
-                Rs = (F * D * G) / (3.14 * NdotL * NdotV);
-        }
-        return Rs*specular;
-}
-
 vec3 phong(vec3 lightDirection, vec3 normal){
 
           // ambient
@@ -81,22 +43,55 @@ vec3 phong(vec3 lightDirection, vec3 normal){
           return ambient + diffuse;
 }
 
+//Fresnel
+vec3 Fresnel(vec3 BaseColor, float Metalness, float b) {
+    vec3 F0 = mix(vec3(0.04), BaseColor, Metalness);
+    return F0 + (1.0 - F0) * pow(1.0 - b, 5.0);
+}
+
+//Beckmann
+float Beckmann(float NdotH, float Roughness) {
+    float a = Roughness * Roughness;
+    float a2 = a * a;
+    float r1 = 1.0 / (4.0 * a2 * pow(NdotH, 4.0));
+    float r2 = (NdotH * NdotH - 1.0) / (a2 * NdotH * NdotH);
+    return r1 * exp(r2);
+}
+
+//Geometric Attenuation
+float GCT(float NdotL, float NdotV, float NdotH, float VdotH) {
+    float G1 = (2.0 * NdotH * NdotV) / VdotH;
+    float G2 = (2.0 * NdotH * NdotL) / VdotH;
+    return min(1.0, min(G1, G2));
+}
+
+// Cook-Torrance
+vec3 CookTorrance(vec3 N, vec3 V, vec3 H, vec3 L) {
+    float NdotH = max(0.0, dot(N, H));
+    float NdotV = max(1e-7, dot(N, V));
+    float NdotL = max(1e-7, dot(N, L));
+    float VdotH = max(0.0, dot(V, H));
+
+    float D = Beckmann(NdotH, 0.1);
+
+    float G = GCT(NdotL, NdotV, NdotH, VdotH);
+    vec3 F = Fresnel(vec3(1.0,1.0,1.0), 0.0, VdotH);
+
+    return (F / 3.1415) * (D * G) / (4.0 * NdotL * NdotV);
+}
+
 void main()
 {
     vec3 n = normalize(eyeNormal);
     vec3 l = normalize(vertexToLight);
     vec3 cameraToVertex = normalize(vertex); //remember we are in camera space!
 
+
     //TODO: fill the rest in
-    vec3 color = phong(l,n);
-    fragColor = vec4(color.x,color.y,color.z,1.0);
-/*
-    fragColor += CookTorrance(ambient, diffuse,
-                    n,
-                    l,
-                    cameraToVertex,
-                    specular);
-*/
+    vec3 color = phong(-l,n);
+    vec3 specular = clamp(CookTorrance(n,l,(cameraToVertex+l)/2,cameraToVertex), 0.3, 1.);
+    fragColor = vec4(color.x+specular.x,color.y+specular.y,color.z+specular.z,1.0);
+
 
   //  fragColor = testColor();
 }

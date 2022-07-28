@@ -1,0 +1,131 @@
+#define PI 3.14159265359
+
+#define FIELD_OF_VIEW 60.0
+#define LIGHT_DIR vec3(-1, 1, 0)
+
+#define D_GGX
+#define G_Schlick
+
+struct Ray { vec3 o, d; };
+
+struct Sphere {
+	float r;
+	vec3 p;
+};
+
+Sphere sphere = Sphere(1.0, vec3(0, 0, 0));
+
+vec3 toColor(vec3 v) {
+    return v * 0.5 + 0.5;
+}
+
+/* ------------------------ Fresnel functions -------------------------- */
+// Fresnel
+vec3 Fresnel(vec3 BaseColor, float Metalness, float b) {
+    vec3 F0 = mix(vec3(0.04), BaseColor, Metalness);
+    return F0 + (1.0 - F0) * pow(1.0 - b, 5.0);
+}
+
+/* ---------------------- Distribution functions ----------------------- */
+
+
+// Beckmann
+float Beckmann(float NdotH, float Roughness) {
+    float a = Roughness * Roughness;
+    float a2 = a * a;
+    float r1 = 1.0 / (4.0 * a2 * pow(NdotH, 4.0));
+    float r2 = (NdotH * NdotH - 1.0) / (a2 * NdotH * NdotH);
+    return r1 * exp(r2);
+}
+
+/* --------------------- Geometric shadowing terms --------------------- */
+
+
+// Cook-Torrance
+float GCT(float NdotL, float NdotV, float NdotH, float VdotH) {
+    float G1 = (2.0 * NdotH * NdotV) / VdotH;
+    float G2 = (2.0 * NdotH * NdotL) / VdotH;
+    return min(1.0, min(G1, G2));
+}
+
+/* --------------------------- Shading model --------------------------- */
+// Lambert
+vec3 Lambert(vec3 DiffuseReflectance) {
+    return DiffuseReflectance / PI;
+}
+
+// Cook-Torrance
+vec3 CookTorrance(vec3 N, vec3 V, vec3 H, vec3 L) {
+    float NdotH = max(0.0, dot(N, H));
+    float NdotV = max(1e-7, dot(N, V));
+    float NdotL = max(1e-7, dot(N, L));
+    float VdotH = max(0.0, dot(V, H));
+
+    float D = Beckmann(NdotH, 0.3);
+    
+    float G = GCT(NdotL, NdotV, NdotH, VdotH);
+    vec3 F = Fresnel(vec3(0.3,0.2,0.5), 0.4, VdotH);
+    
+    return (F / PI) * (D * G) / (4.0 * NdotL * NdotV);
+}
+
+vec3 phong(vec3 lightDirection, vec3 normal){
+
+          // ambient
+          float k_a = 0.6;
+          vec3 i_a = vec3(0.7, 0.7, 0);
+          vec3 ambient = k_a * i_a;
+
+          // diffuse
+          float k_d = 0.9;
+          float dotLN = clamp(dot(lightDirection, normal), 0., 1.);
+          vec3 i_d = vec3(0.3, 0.5, 0.4);
+          vec3 diffuse = k_d * dotLN * i_d;
+
+          return ambient + diffuse;
+}
+
+/* -------------------------- Sphere tracing  ------------------------- */
+float intersect(Sphere s, Ray r) {
+	vec3 op = s.p - r.o;
+	float t, epsilon = 1e-3, b = dot(op, r.d), det = b * b - dot(op, op) + s.r * s.r;
+	if (det < 0.) return 0.; else det = sqrt(det);
+	return (t = b - det) > epsilon ? t : ((t = b + det) > epsilon ? t : 0.);
+}
+
+
+vec3 trace(Ray ray, vec3 V) {
+    float t = intersect(sphere, ray);
+    if (t > 0.0) {
+        vec3 X = ray.o + (t * ray.d);
+        vec3 N = normalize(X - sphere.p);
+		vec3 L = normalize(LIGHT_DIR);
+        vec3 H = normalize(L + V);
+        vec3 col = phong(L,N);
+        float Li = 15.0;
+        vec3 Specular = clamp(CookTorrance(N, V, H, L), 0.0, 1.0);
+        col +=  Specular * Li;
+        
+        return col;
+    }
+    
+    return vec3(0.6);
+}
+
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    float aspect = iResolution.x / iResolution.y;
+    vec2 uv = 2. * fragCoord.xy / iResolution.xy - 1.;
+    uv.x *= aspect;
+	
+    vec3 camPos = vec3(2.4,1.2,1.3);
+    vec3 cz = normalize(vec3(0, 0, 0) - camPos);
+    vec3 cx = normalize(cross(cz, vec3(0., 1., 0.)));
+    vec3 cy = cross(cx, cz);
+    float fov = 1.0 / tan(FIELD_OF_VIEW / 180.0 * PI);
+    vec3 camDir = normalize(fov * (uv.x * cx + uv.y * cy) + cz);
+    Ray r = Ray(camPos, camDir);
+    
+    vec3 color = trace(r, -cz);
+    fragColor = vec4(color, 1);
+}
