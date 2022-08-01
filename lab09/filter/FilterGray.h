@@ -6,7 +6,6 @@
 class FilterGray : public Filter {
 public:
     virtual ~FilterGray() override;
-    virtual void helloTest ();
 
     virtual void apply(Canvas2D *canvas) override;
     unsigned char RGBAToGray(const RGBA &pixel);

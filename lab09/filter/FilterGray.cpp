@@ -1,7 +1,7 @@
 #include "FilterGray.h"
 #include <iostream>
 
-unsigned char RGBAToGray(const RGBA &pixel) {
+unsigned char FilterGray::RGBAToGray(const RGBA &pixel) {
     // TODO: Task 5
     return (int)0.299*pixel.r +  (int)0.587*pixel.g +  (int)0.114*pixel.b;
 
@@ -9,9 +9,6 @@ unsigned char RGBAToGray(const RGBA &pixel) {
 
 }
 
-void helloTest(){
-    std::cout <<"hello" <<std::endl;
-}
 
 
 FilterGray::~FilterGray()
