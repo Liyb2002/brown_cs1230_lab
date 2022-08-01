@@ -1,5 +1,6 @@
 #include "FilterIdentity.h"
 #include "FilterUtils.h"
+#include <iostream>
 
 FilterIdentity::FilterIdentity()
 {
@@ -10,9 +11,11 @@ FilterIdentity::FilterIdentity()
 
 FilterIdentity::~FilterIdentity()
 {
+
 }
 
 void FilterIdentity::apply(Canvas2D *canvas) {
+    std::cout <<"FilterIdentity calls";
     // TODO: Task 16 Call convolve function from superclass
     FilterUtils::Convolve2D(canvas->data(), canvas-> width(), canvas-> height(),  m_kernel);
 

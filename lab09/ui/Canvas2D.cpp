@@ -16,6 +16,8 @@
 #include "filter/FilterIdentity.h"
 #include "filter/FilterShift.h"
 
+#include <iostream>
+
 #include <QPainter>
 
 Canvas2D::Canvas2D() {
@@ -43,15 +45,18 @@ void Canvas2D::filterImage() {
 
      switch (settings.filterType){
       case 1:
-         m_filter = std::make_unique<FilterInvert>();
+         m_filter = std::make_unique<FilterIdentity>();
       case 2:
          m_filter = std::make_unique<FilterGray>();
      case 3:
-        m_filter = std::make_unique<FilterIdentity>();
-     case 4:
+         std:: cout << "SHIFT_LEFT";
         m_filter = std::make_unique<FilterShift>(SHIFT_LEFT);
-     case 5:
+     case 4:
+         std:: cout << "SHIFT_RIGHT";
         m_filter = std::make_unique<FilterShift>(SHIFT_RIGHT);
+     case 5:
+         std:: cout << "FilterInvert";
+        m_filter = std::make_unique<FilterInvert>();
 
      }
 

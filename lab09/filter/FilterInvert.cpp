@@ -1,10 +1,13 @@
 #include "FilterInvert.h"
+#include <iostream>
 
 FilterInvert::~FilterInvert()
 {
 }
 
 void FilterInvert::apply(Canvas2D *canvas) {
+
+    /*
     int width = canvas->width();
 
     RGBA* current_pixel = nullptr;
@@ -27,5 +30,5 @@ void FilterInvert::apply(Canvas2D *canvas) {
             current_pixel++;
         }
         current_row += width;
-    }
+    }*/
 }

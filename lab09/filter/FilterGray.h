@@ -8,7 +8,7 @@ public:
     virtual ~FilterGray() override;
 
     virtual void apply(Canvas2D *canvas) override;
-    unsigned char RGBAToGray(const RGBA &pixel);
+    int RGBAToGray(const RGBA &pixel);
 
 };
 
