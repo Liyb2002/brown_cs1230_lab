@@ -59,28 +59,6 @@ void FilterGray::apply(Canvas2D *canvas) {
         }
         canvas->update();
 
-/*
-    for (int r = 0; r < canvas->height(); r++) {
-        current_pixel = current_row;
-        currentIndex = r * width;
 
-        for (int c = 0; c < canvas->width(); c++) {
-            // TODO: Task 4
-            unsigned char thisChar = RGBAToGray(*current_pixel);
-
-            // TODO: Task 6
-            current_pixel->r=thisChar;
-            current_pixel->g=thisChar;
-            current_pixel->b=thisChar;
-
-
-
-            /* Advance to the next pixel
-            current_pixel++;
-            currentIndex++;
-        }
-        current_row += width;
-    }
-        */
 }
 

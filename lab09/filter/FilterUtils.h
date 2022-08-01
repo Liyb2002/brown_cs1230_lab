@@ -3,6 +3,8 @@
 
 #include "RGBA.h"
 #include <vector>
+#include "Filter.h"
+
 
 namespace FilterUtils {
 

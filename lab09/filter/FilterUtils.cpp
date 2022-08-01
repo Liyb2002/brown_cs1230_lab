@@ -3,6 +3,8 @@
 #include "math.h"
 #include <cstring>
 
+#include <iostream>
+
 
 namespace FilterUtils {
 
@@ -12,21 +14,24 @@ inline unsigned char REAL2byte(float f) {
 }
 
 void Convolve2D(RGBA* data, int width, int height, const std::vector<float> &kernel) {
+    std::cout <<"Convolve!";
+
     // TODO: Task 9 Create buffer to store new image data
-    RGBA result [width*height];
+    RGBA* result = new RGBA[width*height];
 
 
     // TODO: Task 10 Obtain kernel dimension
-    float dim = sqrt(kernel.size());
+    float dim = 3;
 
 
 
     for (int r = 0; r < height; r++) {
         for (int c = 0; c < width; c++) {
-            size_t centerIndex = r * width + c;
 
             // TODO: Task 11 Initialize color to accumulate convolution data
-            float red_acc, green_acc, blue_acc = 0;
+            float red_acc = 0;
+            float green_acc = 0;
+            float blue_acc = 0;
 
 
             // TODO: Task 12
@@ -37,14 +42,18 @@ void Convolve2D(RGBA* data, int width, int height, const std::vector<float> &ker
             int count = 0;
             for(int i=0-dim/2; i<dim/2; i++){
                 for(int j=0-dim/2; j<dim/2; j++){
-                    int thisX = centerIndex +i;
-                    int thisY = centerIndex +j;
+
+                    int thisX = c +i;
+                    int thisY = r +j;
+
                     if(thisX>0 && thisX <width && thisY>0 && thisY<height){
                         count += 1;
                         RGBA curVal = data[thisX + thisY*width];
-                        red_acc+= curVal.r;
-                        green_acc+=curVal.g;
-                        blue_acc+=curVal.b;
+
+                        red_acc+= (int)curVal.r;
+                        green_acc+=(int)curVal.g;
+                        blue_acc+=(int)curVal.b;
+
                     }
                 }
 
@@ -55,17 +64,45 @@ void Convolve2D(RGBA* data, int width, int height, const std::vector<float> &ker
 
 
             // TODO: Task 14 Update buffer with accumulated color
+
+
             red_acc = red_acc/count;
             green_acc = green_acc/count;
             blue_acc = blue_acc/count;
 
-            RGBA thisColor = RGBA(red_acc, green_acc, blue_acc, 0);
-            result[c + r*width] = thisColor;
+                RGBA *tempt = new RGBA (REAL2byte(red_acc/255.),REAL2byte(green_acc/255.),REAL2byte(blue_acc/255.),0);
+                result[c + r*width] = *tempt;
+
+
+
         }
     }
 
+    for (int r = 0; r < height; r++) {
+        for (int c = 0; c < width; c++) {
+
+            data[c + r*width] = result[c + r*width];
+
+        }
+        }
+/*
+    for (int r = 0; r < height; r++) {
+        for (int c = 0; c < width; c++) {
+            if(r < 10){
+                std::cout<< "red is" << (float)data[c + r*width].r << std::endl;
+                std::cout<< "green is" << (float)data[c + r*width].g << std::endl;
+                std::cout<< "blue is" << (float)data[c + r*width].b << std::endl;
+
+            }
+
+        }
+        }
+*/
+
     // TODO: Task 15 Copy over buffer to canvas data
-    memcpy(data, result, sizeof(data));
+ //   memcpy(data, result, sizeof(RGBA) * width*height);
+
+  //  delete result;
 
 }
 

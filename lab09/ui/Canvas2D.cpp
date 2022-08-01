@@ -59,7 +59,7 @@ void Canvas2D::filterImage() {
      }
 
      if(settings.filterType == FILTER_IDENTITY){
-         m_filter = std::make_unique<FilterInvert>();
+         m_filter = std::make_unique<FilterIdentity>();
      }
 
 

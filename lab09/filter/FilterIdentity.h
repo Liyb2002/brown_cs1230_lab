@@ -10,6 +10,8 @@ public:
 
     virtual void apply(Canvas2D *canvas) override;
 
+    void memcpyTest(RGBA* data, int width, int height);
+
 private:
     std::vector<float> m_kernel;
 };
