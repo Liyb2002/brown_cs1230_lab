@@ -30,7 +30,6 @@ void FilterIdentity::apply(Canvas2D *canvas) {
 
         }
 
-        pix[i] = RGBA (255, 0, 0, 0);
         }
 
  //   memcpyTest(canvas->data(), canvas-> width(), canvas-> height());

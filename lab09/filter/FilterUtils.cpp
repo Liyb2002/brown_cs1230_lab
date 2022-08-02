@@ -39,7 +39,7 @@ void Convolve2D(RGBA* data, int width, int height, const std::vector<float> &ker
             // Obtain the value at current index of kernel
             // Find correct index in original image data
             // Accumulate the kernel applied to pixel value in color_acc
-            int count = 0;
+            float count = 0;
             for(int i=0-dim/2; i<dim/2; i++){
                 for(int j=0-dim/2; j<dim/2; j++){
 
@@ -47,12 +47,12 @@ void Convolve2D(RGBA* data, int width, int height, const std::vector<float> &ker
                     int thisY = r +j;
 
                     if(thisX>0 && thisX <width && thisY>0 && thisY<height){
-                        count += 1;
+                        count += 1.f;
                         RGBA curVal = data[thisX + thisY*width];
 
-                        red_acc+= (int)curVal.r;
-                        green_acc+=(int)curVal.g;
-                        blue_acc+=(int)curVal.b;
+                        red_acc+= (float)curVal.r;
+                        green_acc+=(float)curVal.g;
+                        blue_acc+=(float)curVal.b;
 
                     }
                 }
