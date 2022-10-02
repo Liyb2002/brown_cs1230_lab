@@ -1,0 +1,85 @@
+const float FARAWAY=1e30;
+const float EPSILON=1e-3;
+
+struct Camera {
+    vec3 Obs;
+    vec3 View;
+    vec3 Up;
+    vec3 Horiz;
+    float H;
+    float W;
+    float z;
+};
+
+struct Ray {
+    vec3 Origin;
+    vec3 Dir;
+};
+
+Camera camera(in vec3 Obs, in vec3 LookAt, in float aperture) {
+   Camera C;
+   C.Obs = Obs;
+   C.View = normalize(LookAt - Obs);
+   C.Horiz = normalize(cross(vec3(0.0, 0.0, 1.0), C.View));
+   C.Up = cross(C.View, C.Horiz);
+   C.W = float(iResolution.x);
+   C.H = float(iResolution.y);
+   C.z = (C.H/2.0) / tan((aperture * 3.1415 / 180.0) / 2.0);
+   return C;
+}
+
+Ray launch(in Camera C, in vec2 XY) {
+   return Ray(
+      C.Obs,
+      C.z*C.View+(XY.x-C.W/2.0)*C.Horiz+(XY.y-C.H/2.0)*C.Up 
+   );
+}
+
+
+struct Rectangle {
+    vec3 minPoint;
+    vec3 maxPoint;
+};
+
+
+
+void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
+
+   Camera C = camera(
+       vec3(2.f, 2.4, 4.5),
+       vec3(0.f, 0.f, 0.5),
+       50.0       
+   );
+   Ray R = launch(C, fragCoord);
+   
+   
+   fragColor = vec4(0.5, 0.5, 0.5, 1.0);
+
+   const float FARAWAY=1e30; 
+   float t = FARAWAY;
+
+   vec3 N;  // Normale
+
+        
+     Rectangle rect = Rectangle(vec3(0.f,0.f,1.f), 
+                                vec3(0.5f,0.5f, 1.f));
+     float rectZ = rect.minPoint.z;
+     float rect_t = (rectZ - R.Origin.z) / R.Dir.z;
+     vec3 hitPoint = R.Origin + R.Dir*rect_t;
+     
+     if(hitPoint.x <= rect.maxPoint.x &&
+     hitPoint.x >= rect.minPoint.x && 
+     hitPoint.y <= rect.maxPoint.y &&
+     hitPoint.y >= rect.minPoint.y
+     ){
+     vec3 lightDirection = normalize(R.Origin - hitPoint);
+     N = vec3(0.f, 0.f, 1.f);
+     float dif = dot(N, lightDirection);
+     vec3 col = vec3(dif)*vec3(0.5,0.9,0.3);
+     fragColor = vec4(col, 1.f);
+     }
+     
+
+     
+     
+    }
