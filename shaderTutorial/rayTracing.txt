@@ -1,39 +1,21 @@
 const float FARAWAY=1e30;
 const float EPSILON=1e-3;
 
-struct Camera {
-    vec3 Obs;
-    vec3 View;
-    vec3 Up;
-    vec3 Horiz;
-    float H;
-    float W;
-    float z;
-};
 
 struct Ray {
     vec3 Origin;
     vec3 Dir;
 };
 
-Camera camera(in vec3 Obs, in vec3 LookAt, in float aperture) {
-   Camera C;
-   C.Obs = Obs;
-   C.View = normalize(LookAt - Obs);
-   C.Horiz = normalize(cross(vec3(0.0, 0.0, 1.0), C.View));
-   C.Up = cross(C.View, C.Horiz);
-   C.W = float(iResolution.x);
-   C.H = float(iResolution.y);
-   C.z = (C.H/2.0) / tan((aperture * 3.1415 / 180.0) / 2.0);
-   return C;
+mat3 camera(vec3 cameraPos, vec3 lookAtPoint) {
+	vec3 cd = normalize(lookAtPoint - cameraPos); // camera direction
+	vec3 cr = normalize(cross(vec3(0, 1, 0), cd)); // camera right
+	vec3 cu = normalize(cross(cd, cr)); // camera up
+	
+	return mat3(-cr, cu, -cd);
 }
 
-Ray launch(in Camera C, in vec2 XY) {
-   return Ray(
-      C.Obs,
-      C.z*C.View+(XY.x-C.W/2.0)*C.Horiz+(XY.y-C.H/2.0)*C.Up 
-   );
-}
+
 
 struct Sphere {
    vec3 Center;
@@ -50,7 +32,7 @@ Object scene[1];
 void init_scene() {
 
    scene[0] = Object(
-      Sphere(vec3(0.0, 0.0, 0.0),0.5) 
+      Sphere(vec3(0, 0, -7.0),0.5) 
    );
 
 
@@ -72,15 +54,13 @@ bool intersect_sphere(in Ray R, in Sphere S, out float t) {
  
 
 void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
-
+  
+  vec2 uv = (fragCoord-.5*iResolution.xy)/iResolution.y;
    init_scene();
-
-   Camera C = camera(
-       vec3(2.0, 2.0, 1.5),
-       vec3(0.5, 0.5, 0.5),
-       50.0       
-   );
-   Ray R = launch(C, fragCoord);
+   vec3 lp = vec3(0, 0, -4); // lookat point 
+   vec3 ro = vec3(0, 0, 3); // ray origin
+   vec3 rd = camera(ro, lp) * normalize(vec3(uv, -1)); 
+   Ray R = Ray (rd, rd);
    
    
    fragColor = vec4(0.5, 0.5, 1.0, 1.0);
