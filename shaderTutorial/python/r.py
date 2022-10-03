@@ -39,55 +39,61 @@ def rayMarch(ro, rd, start, end):
 
 def calcNormal(p):
     eps = 0.001
-    n = vec3(0, 0, 0)
-    n.x = scene(p + vec3(eps, 0, 0)) - scene(p - vec3(eps, 0, 0))
-    n.y = scene(p + vec3(0, eps, 0)) - scene(p - vec3(0, eps, 0))
-    n.z = scene(p + vec3(0, 0, eps)) - scene(p - vec3(0, 0, eps))
-    return vec3(n.norm().x, n.norm().y, n.norm().z)
+    n = np.array([0., 0., 0.])
+    n[0] = scene(p + np.array([eps, 0, 0])) - scene(p - np.array([eps, 0, 0]))
+    n[1] = scene(p + np.array([0, eps, 0])) - scene(p - np.array([0, eps, 0]))
+    n[2] = scene(p + np.array([0, 0, eps])) - scene(p - np.array([0, 0, eps]))
+    return n / np.linalg.norm(n)
 
 def scene(p):
-    offset = vec3(0, 0, -1) 
+    offset = np.array([0, 0, -1])
     radius = 0.7
-    #print(p.x, p.y, p.z)
-    return np.sqrt((p.x-offset.x) * (p.x-offset.x) 
-                + (p.y-offset.y) * (p.y-offset.y) 
-                + (p.z-offset.z) * (p.z-offset.z)) - radius
+    return np.sqrt((p[0]-offset[0]) * (p[0]-offset[0]) 
+                + (p[1]-offset[1]) * (p[1]-offset[1]) 
+                + (p[2]-offset[2]) * (p[2]-offset[2])) - radius
 
+
+def camera(cameraPos, lookAtPoint):
+  cd = (lookAtPoint - cameraPos) / np.linalg.norm(lookAtPoint - cameraPos)
+  cr = np.cross(np.array([0, 1, 0]), cd)
+  cu = (np.cross(cd, cr)) / np.linalg.norm(np.cross(cd, cr))
+  return np.column_stack((-cr, cu, -cd))
 
 t0 = time.time()
 random_colors = np.zeros((512, 512, 3), dtype=np.uint8)
 
-# Camera
-ro = vec3(0, 0, 3)
-lookAtPoint = vec3(0, 0, 0)
-rd = vec3(0, 0,-1)
+ro = np.array([0., 0., 3.])
+lookAtPoint = np.array([0., 0., 0.])
+#rd = np.array([0., 0., -1.])
+my_camera = camera(ro, lookAtPoint)
 
 #light Pos
-lp = vec3(3, 2, 4)
+lp = np.array([-3, 2, 4])
 
-# Screen
 (w, h) = (512, 512)
-(fov, aspect) = (np.pi / 2, w / h)
-(cx, cy) = (np.tan(fov / 2) * aspect, np.tan(fov / 2))
+(fov, aspect) = (np.pi / 2., w / h)
+(cx, cy) = (np.tan(fov / 2.) * aspect, np.tan(fov / 2.))
 # Render
 for y in range(h):
     for x in range(w):
-        rd.x = cx * (2 * (x + 0.5) / w - 1)
-        rd.y = cy * (2 * (y + 0.5) / h - 1)
-        rd.z = -1
-        rd = rd.norm()
+        raw_rd = np.array([x, y, -1])
+        raw_rd = (raw_rd) / np.linalg.norm(raw_rd)
+        rd = np.dot(my_camera , raw_rd)
+        rd[0] = cx * ( 2* (x + 0.5) / w - 1)
+        rd[1] = cy * (1 - 2 * (y + 0.5) / h )
+        rd[2] = -1.
+        rd = rd / np.linalg.norm(rd)
         dist = rayMarch(ro, rd, MIN_DIST, MAX_DIST)
         if dist > MAX_DIST:
             random_colors[x,y] = [0,0,0]
         else:
             p = ro + rd * dist
             n = calcNormal(p)
-            lightDirection = (lp - p).norm()
+            lightDirection = (lp - p) / np.linalg.norm(lp - p)
             dif = n.dot(lightDirection)
             dif = max(0.01, dif)
             random_colors[x,y] = [dif * 255, dif * 25, dif * 55]
             #print("{} {} {}".format(n.x, n.y, n.z))
-
 print("Took", time.time() - t0, "seconds")
 
 import matplotlib.pyplot as plt
